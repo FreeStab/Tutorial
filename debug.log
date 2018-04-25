@@ -1,0 +1,101 @@
+[0301/140048.610:ERROR:settings.cc(266)] Settings version is not 1
+[0302/115353.496:ERROR:settings.cc(266)] Settings version is not 1
+[0302/215607.778:ERROR:process_info.cc(625)] range at 0xfffde000, size 0x230 fully unreadable
+[0302/215607.797:ERROR:process_info.cc(625)] range at 0xfffdd000, size 0xf84 fully unreadable
+[0302/215607.797:ERROR:process_info.cc(625)] range at 0xfffda000, size 0xf84 fully unreadable
+[0302/215607.797:ERROR:process_info.cc(625)] range at 0xfffd7000, size 0xf84 fully unreadable
+[0302/215607.797:ERROR:process_info.cc(625)] range at 0xfffaf000, size 0xf84 fully unreadable
+[0302/215607.797:ERROR:process_info.cc(625)] range at 0xfffac000, size 0xf84 fully unreadable
+[0302/215607.797:ERROR:process_info.cc(625)] range at 0xfffa9000, size 0xf84 fully unreadable
+[0302/215607.797:ERROR:process_info.cc(625)] range at 0xfffa6000, size 0xf84 fully unreadable
+[0302/215607.798:ERROR:process_info.cc(625)] range at 0xfffa3000, size 0xf84 fully unreadable
+[0302/215607.798:ERROR:process_info.cc(625)] range at 0xfffa0000, size 0xf84 fully unreadable
+[0302/215607.798:ERROR:process_info.cc(625)] range at 0xfff9d000, size 0xf84 fully unreadable
+[0302/215607.798:ERROR:process_info.cc(625)] range at 0xfff9a000, size 0xf84 fully unreadable
+[0302/215607.798:ERROR:process_info.cc(625)] range at 0xfff91000, size 0xf84 fully unreadable
+[0302/215607.798:ERROR:process_info.cc(625)] range at 0xfff88000, size 0xf84 fully unreadable
+[0302/215607.798:ERROR:process_info.cc(625)] range at 0xfff85000, size 0xf84 fully unreadable
+[0302/215607.798:ERROR:process_info.cc(625)] range at 0xfff82000, size 0xf84 fully unreadable
+[0302/215607.798:ERROR:process_info.cc(625)] range at 0xfff7f000, size 0xf84 fully unreadable
+[0302/215607.798:ERROR:process_info.cc(625)] range at 0xfff7c000, size 0xf84 fully unreadable
+[0302/215607.798:ERROR:process_info.cc(625)] range at 0xfff79000, size 0xf84 fully unreadable
+[0302/215607.798:ERROR:process_info.cc(625)] range at 0xfff76000, size 0xf84 fully unreadable
+[0302/215607.798:ERROR:process_info.cc(625)] range at 0xfff73000, size 0xf84 fully unreadable
+[0302/215607.798:ERROR:process_info.cc(625)] range at 0xfff97000, size 0xf84 fully unreadable
+[0302/215607.798:ERROR:process_info.cc(625)] range at 0xfff8b000, size 0xf84 fully unreadable
+[0302/215607.798:ERROR:process_info.cc(625)] range at 0xfff94000, size 0xf84 fully unreadable
+[0305/104622.765:ERROR:crash_report_database_win.cc(426)] unexpected header
+[0306/120907.741:ERROR:settings.cc(266)] Settings version is not 1
+[0307/134849.425:ERROR:settings.cc(266)] Settings version is not 1
+[0307/134849.436:ERROR:crash_report_database_win.cc(426)] unexpected header
+[0309/123441.333:ERROR:settings.cc(266)] Settings version is not 1
+[0309/123441.336:ERROR:crash_report_database_win.cc(426)] unexpected header
+[0310/102120.505:ERROR:settings.cc(266)] Settings version is not 1
+[0310/102120.520:ERROR:crash_report_database_win.cc(426)] unexpected header
+[0310/103120.521:ERROR:crash_report_database_win.cc(426)] unexpected header
+[0310/103120.521:ERROR:crash_report_database_win.cc(426)] unexpected header
+[0310/103620.521:ERROR:crash_report_database_win.cc(426)] unexpected header
+[0310/105120.534:ERROR:crash_report_database_win.cc(426)] unexpected header
+[0310/110620.536:ERROR:crash_report_database_win.cc(426)] unexpected header
+[0310/112120.536:ERROR:crash_report_database_win.cc(426)] unexpected header
+[0310/113620.537:ERROR:crash_report_database_win.cc(426)] unexpected header
+[0310/115120.537:ERROR:crash_report_database_win.cc(426)] unexpected header
+[0310/120620.538:ERROR:crash_report_database_win.cc(426)] unexpected header
+[0310/122120.538:ERROR:crash_report_database_win.cc(426)] unexpected header
+[0310/123620.539:ERROR:crash_report_database_win.cc(426)] unexpected header
+[0310/125120.540:ERROR:crash_report_database_win.cc(426)] unexpected header
+[0310/130620.541:ERROR:crash_report_database_win.cc(426)] unexpected header
+[0310/132120.541:ERROR:crash_report_database_win.cc(426)] unexpected header
+[0310/133620.542:ERROR:crash_report_database_win.cc(426)] unexpected header
+[0310/135120.542:ERROR:crash_report_database_win.cc(426)] unexpected header
+[0310/200207.538:ERROR:crash_report_database_win.cc(426)] unexpected header
+[0312/091244.794:ERROR:crash_report_database_win.cc(426)] unexpected header
+[0313/093726.433:ERROR:crash_report_database_win.cc(426)] unexpected header
+[0313/140941.927:ERROR:settings.cc(266)] Settings version is not 1
+[0313/140941.928:ERROR:crash_report_database_win.cc(426)] unexpected header
+[0314/090410.471:ERROR:settings.cc(266)] Settings version is not 1
+[0314/090410.476:ERROR:crash_report_database_win.cc(426)] unexpected header
+[0314/091410.476:ERROR:crash_report_database_win.cc(426)] unexpected header
+[0314/091410.476:ERROR:crash_report_database_win.cc(426)] unexpected header
+[0314/091910.477:ERROR:crash_report_database_win.cc(426)] unexpected header
+[0314/093410.477:ERROR:crash_report_database_win.cc(426)] unexpected header
+[0314/094910.478:ERROR:crash_report_database_win.cc(426)] unexpected header
+[0314/100410.478:ERROR:crash_report_database_win.cc(426)] unexpected header
+[0314/101910.479:ERROR:crash_report_database_win.cc(426)] unexpected header
+[0314/103410.479:ERROR:crash_report_database_win.cc(426)] unexpected header
+[0314/104910.480:ERROR:crash_report_database_win.cc(426)] unexpected header
+[0314/110410.480:ERROR:crash_report_database_win.cc(426)] unexpected header
+[0314/111910.483:ERROR:crash_report_database_win.cc(426)] unexpected header
+[0314/113410.486:ERROR:crash_report_database_win.cc(426)] unexpected header
+[0314/114910.487:ERROR:crash_report_database_win.cc(426)] unexpected header
+[0314/120410.488:ERROR:crash_report_database_win.cc(426)] unexpected header
+[0314/121910.488:ERROR:crash_report_database_win.cc(426)] unexpected header
+[0314/123410.488:ERROR:crash_report_database_win.cc(426)] unexpected header
+[0314/124910.489:ERROR:crash_report_database_win.cc(426)] unexpected header
+[0314/130410.489:ERROR:crash_report_database_win.cc(426)] unexpected header
+[0314/131910.490:ERROR:crash_report_database_win.cc(426)] unexpected header
+[0314/133410.491:ERROR:crash_report_database_win.cc(426)] unexpected header
+[0314/134910.492:ERROR:crash_report_database_win.cc(426)] unexpected header
+[0314/140410.492:ERROR:crash_report_database_win.cc(426)] unexpected header
+[0314/141910.493:ERROR:crash_report_database_win.cc(426)] unexpected header
+[0314/143410.497:ERROR:crash_report_database_win.cc(426)] unexpected header
+[0314/144910.498:ERROR:crash_report_database_win.cc(426)] unexpected header
+[0314/150410.498:ERROR:crash_report_database_win.cc(426)] unexpected header
+[0314/151910.500:ERROR:crash_report_database_win.cc(426)] unexpected header
+[0314/153410.500:ERROR:crash_report_database_win.cc(426)] unexpected header
+[0314/154910.502:ERROR:crash_report_database_win.cc(426)] unexpected header
+[0314/160410.502:ERROR:crash_report_database_win.cc(426)] unexpected header
+[0314/161910.504:ERROR:crash_report_database_win.cc(426)] unexpected header
+[0314/163410.506:ERROR:crash_report_database_win.cc(426)] unexpected header
+[0314/164910.507:ERROR:crash_report_database_win.cc(426)] unexpected header
+[0314/170410.508:ERROR:crash_report_database_win.cc(426)] unexpected header
+[0314/171910.510:ERROR:crash_report_database_win.cc(426)] unexpected header
+[0314/173410.510:ERROR:crash_report_database_win.cc(426)] unexpected header
+[0314/174910.511:ERROR:crash_report_database_win.cc(426)] unexpected header
+[0314/180410.511:ERROR:crash_report_database_win.cc(426)] unexpected header
+[0314/181910.512:ERROR:crash_report_database_win.cc(426)] unexpected header
+[0314/183410.512:ERROR:crash_report_database_win.cc(426)] unexpected header
+[0315/004712.443:ERROR:crash_report_database_win.cc(426)] unexpected header
+[0320/130117.289:ERROR:settings.cc(266)] Settings version is not 1
+[0320/130117.355:ERROR:crash_report_database_win.cc(426)] unexpected header
+[0324/131755.012:ERROR:crash_report_database_win.cc(426)] unexpected header

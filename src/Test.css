@@ -1,0 +1,218 @@
+
+
+.Test {
+    text-align: center;
+}
+
+.Card{
+    border-radius: 10px;
+    text-align: center;
+    width: 20%;
+    padding-top: 100%;
+    padding: 15px;
+    margin: 10px;
+    float: left;
+    display: table-row;
+    align-content: center;
+    transition: border, box-shadow 250ms linear;
+    box-shadow: 2px 2px 1px 1px #888888;
+    box-sizing: border-box;
+}
+
+.CardHover{
+ transform: rotate(3deg);
+    cursor: pointer;
+    box-shadow: 10px 10px 8px #888888;
+}
+
+.Grid{
+    width: 100%;
+    display: inline-block;
+    text-align: center;
+}
+
+.labelImg{
+    height: auto;
+    width: 80%;
+    vertical-align: middle;
+    transition: width 250ms linear;
+    horiz-align: center;
+    display: block;
+    margin: 0 auto;
+}
+
+.labelImgHover{
+    cursor: pointer;
+    animation: logo-wider infinite 10s linear;
+}
+
+@keyframes logo-wider {
+    from { transform: rotate(0deg); }
+    to { transform: rotate(360deg); }
+}
+
+.Card > p {
+    float: bottom;
+    font-size: 1.5em;
+
+}
+
+
+
+
+.field{
+    --uiFieldPaddingTop: var(--fieldPaddingTop, 0px);
+    --uiFieldPaddingRight: var(--fieldPaddingRight, 0px);
+    --uiFieldPaddingBottom: var(--fieldPaddingBottom, 0px);
+    --uiFieldPaddingLeft: var(--fieldPaddingLeft, 0px);
+
+    --uiFieldBorderColor: var(--fieldBorderColor, transpatent);
+    --uiFieldBorderTop: var(--fieldBorderTop, 0px);
+    --uiFieldBorderRight: var(--fieldBorderRight, 0px);
+    --uiFieldBorderBottom: var(--fieldBorderBottom, 0px);
+    --uiFieldBorderLeft: var(--fieldBorderLeft, 0px);
+
+    --uiFieldBgColor: var(--fieldBgColor, transpatent);
+    --uiFieldPlaceholderColor: var(--fieldPlaceholderColor, #767676);
+    --uiFieldAnimationDuration: var(--fieldAnimationDuration, .3s);
+    --uiFieldFonstSize: var(--fieldFontSize, 16px);
+
+    position: relative;
+    display: block;
+}
+
+.field__input{
+    width: 100%;
+    box-sizing: border-box;
+    background-color: var(--uiFieldBgColor);
+
+    /* for iOS */
+    appearance: none;
+    border-radius: 0;
+
+    border-style: solid;
+    border-color: var(--uiFieldBorderColor);
+
+    border-top-width: var(--uiFieldBorderTop);
+    border-right-width: var(--uiFieldBorderRight);
+    border-bottom-width: var(--uiFieldBorderBottom);
+    border-left-width: var(--uiFieldBorderLeft);
+
+    padding-top: var(--uiFieldPaddingTop);
+    padding-right: var(--uiFieldPaddingRight);
+    padding-bottom: var(--uiFieldPaddingBottom);
+    padding-left: var(--uiFieldPaddingLeft);
+
+    font-family: inherit;
+    font-size: 100%;
+    color: inherit;
+}
+
+.field__input::-webkit-input-placeholder{
+    color: var(--uiFieldPlaceholderColor);
+    opacity: 0;
+}
+
+.field__input::-moz-placeholder{
+    color: var(--uiFieldPlaceholderColor);
+    opacity: 0;
+}
+
+.field__input:focus{
+    outline: none;
+}
+
+.field__input:focus::-webkit-input-placeholder{
+    transition: opacity var(--uiFieldAnimationDuration) ease-out var(--uiFieldAnimationDuration);
+    opacity: 1;
+}
+
+.field__input:focus::-moz-placeholder{
+    transition: opacity var(--uiFieldAnimationDuration) ease-out var(--uiFieldAnimationDuration);
+    opacity: 1;
+}
+
+.field__label-wrap{
+    height: 100%;
+    display: block;
+}
+
+.field__label{
+    position: absolute;
+    top: calc(0px + var(--uiFieldPaddingTop) + var(--uiFieldBorderTop));
+    left: calc(0px + var(--uiFieldPaddingLeft) + var(--uiFieldBorderLeft));
+
+    pointer-events: none;
+    font-size: .9em;
+
+    transition: top var(--uiFieldAnimationDuration) cubic-bezier(0.9,-0.15, 0.1, 1.15), opacity var(--uiFieldAnimationDuration) ease-out;
+    will-change: top, opacity;
+}
+
+.field__input:not(:placeholder-shown) ~ .field__label-wrap .field__label{
+    opacity: 0;
+    top: calc(0px + var(--uiFieldPaddingTop) + var(--uiFieldBorderTop));
+}
+
+.field__input:focus ~ .field__label-wrap .field__label{
+    opacity: 1;
+    top: calc(-1 * calc(var(--uiFieldPaddingTop) + var(--uiFieldBorderTop) + 15px));
+}
+
+/* type 2 */
+
+.field_type2{
+    --uiFieldBorderBottom: var(--fieldBorderBottom, 2px);
+    --uiFieldPaddingTop: var(--fieldPaddingTop, 5px);
+    --uiFieldPaddingRight: var(--fieldPaddingRight, 15px);
+    --uiFieldPaddingBottom: var(--fieldPaddingBottom, 10px);
+    --uiFieldPaddingLeft: var(--fieldPaddingLeft, 15px);
+}
+
+.field_type2 .field__label-wrap:after{
+    content: "";
+    width: 0;
+    height: var(--uiFieldBorderBottom);
+    background-color: var(--fieldBorderColorActive);
+
+    position: absolute;
+    bottom: 0;
+    left: 0;
+
+    will-change: width;
+    transition: width var(--uiFieldAnimationDuration) ease-out;
+}
+
+.field_type2 .field__input:focus ~ .field__label-wrap:after{
+    width: 100%;
+}
+
+.field{
+    --fieldBorderColor: #434343;
+    --fieldBorderColorActive: #434343;
+    --fieldPlaceholderColor: #989898;
+    color: #434343;
+}
+
+.AddCard{
+    width: 50%;
+    display: table;
+    margin: 0 auto;
+}
+
+.submitBtn {
+    padding:5px 15px;
+    margin: 10px;
+    background:none;
+    border: 1px solid black;
+    cursor:pointer;
+    font-size: 1.5em;
+    color: #434343;
+    transition: background-color 250ms linear;
+    -webkit-border-radius: 5px;
+    border-radius: 15px;
+}
+.submitBtnHover {
+    background: #434343;
+    color: white;
+}
